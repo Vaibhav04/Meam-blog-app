@@ -2,7 +2,7 @@ const crypto = require('crypto').randomBytes(256).toString('hex'); // Provides c
 
 // Export config object
 module.exports = {
-  uri: 'mongodb://vaibhav:htcd816@ds249355.mlab.com:49355/angular-2-blog-app', // Databse URI and database name
+  uri: 'mongodb://localhost:27017/mean-blog-app', // Databse URI and database name
   secret: crypto, // Cryto-created secret
-  db: 'angular-2-blog-app' // Database name
+  db: 'mean-blog-app' // Database name
 }
